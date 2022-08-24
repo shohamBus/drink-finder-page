@@ -1,0 +1,12 @@
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.spans{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

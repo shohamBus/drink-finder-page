@@ -1,0 +1,16 @@
+.header{
+    background-color: #FF5757;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 0;
+}
+.logo{
+   margin: 0 auto;
+}
+.session{
+    position: absolute;
+   left: 10;
+   top: 40;
+   color: black;
+}
