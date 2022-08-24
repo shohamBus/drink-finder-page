@@ -25,13 +25,13 @@ const userSlice = createSlice({
       state.user.name = "";
       state.user.email = "";
     },
-    AddNewUser: (state, action) => {
-      state.user.name = action.payload.name;
-      state.user.email = action.payload.email;
-    },
+    // AddNewUser: (state, action) => {
+    //   state.user.name = action.payload.name;
+    //   state.user.email = action.payload.email;
+    // },
   },
 });
 
-export const { SignInUser, SignOutUser, AddNewUser } = userSlice.actions;
+export const { SignInUser, SignOutUser } = userSlice.actions;
 
 export default userSlice.reducer;

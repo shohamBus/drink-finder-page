@@ -8,16 +8,13 @@ import {
   ListItemButton,
   ListItemText,
   Paper,
-  Typography,
 } from "@mui/material";
 import "../../fonts/Caraque_Trial_RgMelted.ttf";
 import "../../fonts/Cute_Aurora_demo.ttf";
 import "./DrinkList.css";
 
 function DrinkList() {
-  const { loading, filteredDrinks, drinks, isFilter } = useSelector(
-    (state) => state.drink
-  );
+  const { loading, filteredDrinks } = useSelector((state) => state.drink);
   const dispatch = useDispatch();
   //start- details drinks && random drink
   useEffect(() => {
